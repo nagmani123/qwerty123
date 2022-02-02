@@ -1,0 +1,16 @@
+PODS:
+  - qwerty123 (0.1.0)
+
+DEPENDENCIES:
+  - qwerty123 (from `../`)
+
+EXTERNAL SOURCES:
+  qwerty123:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  qwerty123: c0cb16b31902566e07fa3311a6ae1ab795bf8eca
+
+PODFILE CHECKSUM: 1da9807f10e6e2d01afeda94e5ca0756517aa43f
+
+COCOAPODS: 1.11.2

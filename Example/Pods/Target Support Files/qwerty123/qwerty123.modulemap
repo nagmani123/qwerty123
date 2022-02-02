@@ -1,0 +1,6 @@
+framework module qwerty123 {
+  umbrella header "qwerty123-umbrella.h"
+
+  export *
+  module * { export * }
+}

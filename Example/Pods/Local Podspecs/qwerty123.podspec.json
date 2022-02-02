@@ -1,0 +1,22 @@
+{
+  "name": "qwerty123",
+  "version": "0.1.0",
+  "summary": "A short description of qwerty123.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/namani12/qwerty123",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "namani12": "nagmani.kumar@hastree.com"
+  },
+  "source": {
+    "git": "https://github.com/namani12/qwerty123.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "qwerty123/Classes/**/*"
+}
