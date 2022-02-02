@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'qwerty123_Example' do
+  pod 'qwerty123', :path => '../'
+
+  target 'qwerty123_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
