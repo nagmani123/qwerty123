@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048E374C27AB0A8500687AA1 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E374B27AB0A8500687AA1 /* UIButtonExtension.swift */; };
 		1017882CF600A87ACDA9E7B72A23114D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		153B525F6AD7FCA9FEB4D79FB33996D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2E3BADD393C729BA6748F4A26EFD6872 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D135BAF202EA9C8D65F593D4D5885 /* ReplaceMe.swift */; };
 		4236FBC7139CED3F1710E99CCDA6C406 /* Pods-qwerty123_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B9CCB53A146F565D598D65996AEE4 /* Pods-qwerty123_Example-dummy.m */; };
 		7BAEA3BBDEF76E9D348447A96B9C3737 /* Pods-qwerty123_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE631AC6F908CCE0C190E06F39F93FF /* Pods-qwerty123_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		953853F94C48CDC5AA424EA1ECFA1A32 /* Pods-qwerty123_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C73716F79E525C6C7022200FB9ABA4E5 /* Pods-qwerty123_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048E374B27AB0A8500687AA1 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIButtonExtension.swift; path = qwerty123/Classes/UIButtonExtension.swift; sourceTree = "<group>"; };
 		1DBE4657DE1027BCC3903BE3F341F76C /* Pods-qwerty123_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qwerty123_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2449242A49738313AB656846F3DB9555 /* Pods-qwerty123_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qwerty123_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		276731C5A3146BB561FA9E58B4C35D45 /* Pods-qwerty123_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qwerty123_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		772F879565222C27C0B8CC5B2D90AA4D /* Pods-qwerty123_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qwerty123_Example-Info.plist"; sourceTree = "<group>"; };
 		7B152726B79300CCA6867BBDD2DA488B /* Pods-qwerty123_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qwerty123_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7C6459E49BB0CABEADA6925F57328F2E /* Pods-qwerty123_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qwerty123_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		858D135BAF202EA9C8D65F593D4D5885 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = qwerty123/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		85AB51E9FE8E0F298667269C8F016114 /* qwerty123.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qwerty123.debug.xcconfig; sourceTree = "<group>"; };
 		9B1B9CCB53A146F565D598D65996AEE4 /* Pods-qwerty123_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qwerty123_Example-dummy.m"; sourceTree = "<group>"; };
 		9BBF3993D5A95329CC2F028964F8CF0B /* Pods-qwerty123_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qwerty123_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -140,9 +140,9 @@
 		47958676F94940D988342436A9DC57F7 /* qwerty123 */ = {
 			isa = PBXGroup;
 			children = (
-				858D135BAF202EA9C8D65F593D4D5885 /* ReplaceMe.swift */,
 				072ED62276847A001110DE8EA64768FE /* Pod */,
 				62A79A34332BC2499C910DF729D1FC50 /* Support Files */,
+				048E374B27AB0A8500687AA1 /* UIButtonExtension.swift */,
 			);
 			name = qwerty123;
 			path = ../..;
@@ -376,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FCA3E9BF083261787E9C553C7FCBF0D /* qwerty123-dummy.m in Sources */,
-				2E3BADD393C729BA6748F4A26EFD6872 /* ReplaceMe.swift in Sources */,
+				048E374C27AB0A8500687AA1 /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

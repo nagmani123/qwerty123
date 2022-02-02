@@ -45,7 +45,7 @@
 		6B8AFDA869EAF275969C603D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D3FA5FBD468597435D063A7D /* Pods_qwerty123_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qwerty123_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D456806839B7B89907017ED3 /* Pods-qwerty123_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qwerty123_Example.debug.xcconfig"; path = "Target Support Files/Pods-qwerty123_Example/Pods-qwerty123_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E2A79E07096DDE4E749551B7 /* qwerty123.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = qwerty123.podspec; path = ../qwerty123.podspec; sourceTree = "<group>"; };
+		E2A79E07096DDE4E749551B7 /* qwerty123.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = qwerty123.podspec; path = ../qwerty123.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ECD96D5FAFAEEB595D2EA2FD /* Pods_qwerty123_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qwerty123_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 

@@ -19,24 +19,25 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+
                        DESC
 
-  s.homepage         = 'https://github.com/namani12/qwerty123'
+  s.homepage         = 'https://github.com/namani123/qwerty123'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'namani12' => 'nagmani.kumar@hastree.com' }
-  s.source           = { :git => 'https://github.com/namani12/qwerty123.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/namani123/qwerty123.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'qwerty123/Classes/**/*'
+  s.source_files = 'qwerty123/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'qwerty123' => ['qwerty123/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
+import qwerty123
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnColor: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +21,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func btnActionColor(_ sender: UIButton) {
+        let log = Colorchange()
+        if btnColor.tag == 0{
+        log.BackGroundColorChange(btnColor, colorsend: .red)
+            btnColor.tag = 1
+        }else{
+            log.BackGroundColorChange(btnColor, colorsend: .clear)
+            btnColor.tag = 0
+        }
+    }
 }
 
